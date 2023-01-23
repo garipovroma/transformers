@@ -409,6 +409,7 @@ install_requires = [
     deps["requests"],  # for downloading models over HTTPS
     deps["tokenizers"],
     deps["tqdm"],  # progress bars in model download and training scripts
+    deps["sacremoses"],  # for XLMTokenizer 
 ]
 
 setup(
